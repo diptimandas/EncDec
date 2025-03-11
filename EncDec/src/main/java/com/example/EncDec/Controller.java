@@ -19,6 +19,7 @@ import javax.crypto.spec.SecretKeySpec;
 import java.nio.charset.StandardCharsets;
 import java.security.spec.KeySpec;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/file")
 public class Controller {
